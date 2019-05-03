@@ -66,9 +66,9 @@ ynh_backup "/etc/logrotate.d/$app"
 #=================================================
 # BACKUP FAIL2BAN CONFIGURATION
 #=================================================
-ynh_print_info "Backing up Fail2Ban configuration..."
-ynh_backup "/etc/fail2ban/jail.d/$app.conf"
-ynh_backup "/etc/fail2ban/filter.d/$app.conf"
+#ynh_print_info "Backing up Fail2Ban configuration..."
+#ynh_backup "/etc/fail2ban/jail.d/$app.conf"
+#ynh_backup "/etc/fail2ban/filter.d/$app.conf"
 
 #=================================================
 # END OF SCRIPT
