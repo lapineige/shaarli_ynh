@@ -63,8 +63,8 @@ ynh_remove_logrotate
 #=================================================
 # REMOVE FAIL2BAN CONFIGURATION
 #=================================================
-ynh_print_info "Removing Fail2Ban configuration"
-ynh_remove_fail2ban_config
+#ynh_print_info "Removing Fail2Ban configuration"
+#ynh_remove_fail2ban_config
 
 #=================================================
 # GENERIC FINALIZATION
